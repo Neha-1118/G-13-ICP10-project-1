@@ -4,7 +4,8 @@
     <title>order</title>
 </head>
 <body>
-    <h2>Your Details</h2>
+    <h2><img src="./../images/user-avatar.png" height="35px">&nbsp;&nbsp;Your Details</h2>
+    <hr>
     <form>
         <br>
         <label for="inputfullname"><b><img src="./../images/user.png" height="18px"> Enter full name : <b></label><br />
@@ -16,10 +17,23 @@
         <input type="text" id="inputmobileno" placeholder="Enter mobile number" required />
         <br>
         <br>
-        <label for="inputaddress"><b><img src="./../images/location.png" height="18px"> Address :<b></label><br />
+        <label for="inputaddress"><b><img src="./../images/location.png" height="22px"> Address :<b></label><br />
         <textarea id="Address" rows="5" cols="50"></textarea> 
         <br>
         <br />
+        <b><b><img src="./../images/motorbike.png" height="30px">&nbsp;&nbsp;Delivery details :</b><br>
+        <br />
+        <input type="radio" name="delivery" id="cash on delivery">
+        <label for="cash-on-delivery">Cash On Delivery</label>
+         <br />
+        <input type="radio" name="delivery" id="pay online">
+        <label for="pay online">Pay Online</label> <br />
+        <br>
+        <label for="inputupi"><b>Upi details : <b></label><br />
+            <input type="text" id="inputupi"><br>
+            <br />
+        <button><h3>Place Order</h3></button>    
+        
     </form>
 </body>
 </html>
